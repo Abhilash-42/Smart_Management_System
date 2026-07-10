@@ -2,8 +2,12 @@
 
 export default function AttendanceTable({ students, attendance, date }) {
   const getAttendanceStatus = (studentId) => {
-    const record = attendance.find(a => a.studentId === studentId);
-    return record ? record.status : 'Not Marked';
+    const record = attendance.find(
+      a => String(a.studentId?._id) === String(studentId)
+  );
+
+  return record ? record.status : 'Not Marked';
+};
   };
 
   const getStatusColor = (status) => {
