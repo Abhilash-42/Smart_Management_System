@@ -8,7 +8,6 @@ export default function AttendanceTable({ students, attendance, date }) {
 
   return record ? record.status : 'Not Marked';
 };
-  };
 
   const getStatusColor = (status) => {
     switch(status) {
