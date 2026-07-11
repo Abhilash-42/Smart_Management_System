@@ -76,7 +76,7 @@ http://localhost:3000
 - Password: viewer123
 
 ## Livepage
-https://smart-management-system-9kzi.onrender.com
+Link: https://smart-management-system-9kzi.onrender.com
 ## Author
 
 **Venkata Abhilash Kommana**
@@ -84,6 +84,7 @@ https://smart-management-system-9kzi.onrender.com
 GitHub: https://github.com/Abhilash-42
 
 LinkedIn: https://www.linkedin.com/in/abhi-kommana
+
 Portfolio: https://portfolio-abhilash44.vercel.app
 
 ---
